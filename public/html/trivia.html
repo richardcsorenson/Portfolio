@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Triva Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../styles/triviaStyle.css" />
+    
+</head>
+<style>
+    body{
+        background-image: url(../images/background.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+    } 
+</style>
+<body>
+    <div class="container">
+        <div class="row">
+            <h2>Welcome to the trivia game, you have <span id="timeLeft">60</span> seconds left for the quiz</h2>
+        </div>
+        <br>
+        <br>
+        <br>        
+        <div class="row">
+            <div class="col-lg-1">
+                <!-- empty col -->
+            </div>
+            <div class="col-lg-10">
+                <h5>Question 1: Who is the main villian in the MegaMan series</h5>
+            </div>
+            <div class="col-lg-1">
+                <!-- empty col -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-2">
+                <!-- empty col -->
+            </div>
+            <div class="col-lg-10">
+                <form class="question">
+                    <input type="button" class="a1 btn btn-secondary correct"> A: Doc Willy <br>
+                    <input type="button" class="b1 btn btn-secondary wrong"> B: Zero <br>
+                    <input type="button" class="c1 btn btn-secondary wrong"> C: MegaMan <br>
+                    <input type="button" class="d1 btn btn-secondary wrong"> D: Rollo <br>
+                </form> 
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-1">
+                <!-- empty col -->
+            </div>
+            <div class="col-lg-10">
+                <h5>Question 2: What is Megaman's main weapon?</h5>
+            </div>
+            <div class="col-lg-1">
+                <!-- empty col -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-2">
+                <!-- empty col -->
+            </div>
+            <div class="col-lg-10">
+                <form class="question2">
+                    <input type="button" class = "btn btn-secondary wrong"> A: Lemon Spitter <br>
+                    <input type="button" class = "btn btn-secondary wrong"> B: Gattling Gun <br>
+                    <input type="button" class = "btn btn-secondary correct"> C: Mega Blaster <br>
+                    <input type="button" class = "btn btn-secondary wrong"> D: Mega Boomer <br>
+                </form> 
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-1">
+                <!-- empty col -->
+            </div>
+            <div class="col-lg-10">
+                <h5>Question 3: How does Mega Man get stronger?</h5>
+            </div>
+            <div class="col-lg-1">
+                <!-- empty col -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-2">
+                <!-- empty col -->
+            </div>
+            <div class="col-lg-10">
+                <form class="question3">
+                    <input type="button" class = "btn btn-secondary wrong"> A: Getting Swol at the gym <br>
+                    <input type="button" class = "btn btn-secondary wrong"> B: No power growth over the entire game<br>
+                    <input type="button" class = "btn btn-secondary correct"> C: Canabilizing parts from his enemies<br>
+                    <input type="button" class = "btn btn-secondary wrong"> D: Utilizing the power of friendship<br>
+                </form> 
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-1">
+                <!-- empty col -->
+            </div>
+            <div class="col-lg-10">
+                <h5>Question 4: How many Mega Man games have been made</h5>
+            </div>
+            <div class="col-lg-1">
+                <!-- empty col -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-2">
+                <!-- empty col -->
+            </div>
+            <div class="col-lg-10">
+                <form class="question4">
+                    <input type="button" class = "btn btn-secondary wrong"> A: Not enough <br>
+                    <input type="button" class = "btn btn-secondary wrong"> B: 15 <br>
+                    <input type="button" class = "btn btn-secondary wrong"> C: 3 <br>
+                    <input type="button" class = "btn btn-secondary correct"> D: 59 <br>
+                </form> 
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-1">
+                <!-- empty col -->
+            </div>
+            <div class="col-lg-10">
+                <h5>Question 5: Which company created Mega Man</h5>
+            </div>
+            <div class="col-lg-1">
+                <!-- empty col -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-2">
+                <!-- empty col -->
+            </div>
+            <div class="col-lg-10">
+                <form class="question5">
+                    <input type="button" class = "btn btn-secondary wrong"> A: Sony <br>
+                    <input type="button" class = "btn btn-secondary wrong"> B: Rave <br>
+                    <input type="button" class = "btn btn-secondary wrong"> C: Nintendo <br>
+                    <input type="button" class = "btn btn-secondary correct"> D: Capcom <br>
+                </form> 
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/triviaLogic.js"></script>
+    
+</body>
+</html>

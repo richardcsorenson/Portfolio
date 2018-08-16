@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hangman</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" type="text/css" media="screen" href="../styles/hangmanStyle.css"/>
+</head>
+<body class = "hangmanBody">
+    <div class="Catagory">
+        Catagory for this game is Board Games
+    </div>
+    <div>
+        <p class="guess">Number of Guesses left: <span id="guessesRemain"> 15 </span></p>
+        <p class="usedLetters">Current Guesses: <span id="currentGameGuess"> ... </span></p>
+        <p class="winBox">Wins: <span id="numberWins"></span></p>
+        <p class="lossBox">Losses: <span id="numberLosess"></span></p>
+        <p class = "currentWord">Current Word <span id="currentWord"></span></p>
+        <img src = "../images/Hangman/base.jpg" id = "selfDrawn" class="hangingman"> 
+    </div>
+    <script src="../js/hangmanLogic.js"></script>
+</body>
+</html>

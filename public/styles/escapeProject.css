@@ -1,0 +1,224 @@
+.activityInfo{
+    margin: -.6rem;
+}
+#buttonBox{
+    margin-left:10px;
+    width:90%;
+    margin: 10px auto 10px auto;
+
+}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+}
+.modal-content {
+    background-color: tan;
+    margin: 12% auto; 
+    padding: 20px;
+    text-align: center;
+    border: 4px solid black;
+    font-size: 18px;
+    width: 20%; 
+}
+body{
+    background-color:rgba(102, 92, 60, 0.63);
+    
+}
+
+#buttonBox{
+    width:90%;
+    margin: 70px auto 10px 0px;
+    
+}
+#npButton{
+    background-color:white;
+    margin:10px 10px 0px 0px;
+    box-shadow: 2px 2px 2px gray;
+    border:none;
+    padding:5px;
+}
+
+#npButton:hover{
+    cursor: pointer;
+    color:White;
+    background-color: rgba(62, 92, 33, 0.466);
+    
+
+}
+
+#navBox{
+    width:100%;
+    height:75px;
+    background-color: rgba(62, 92, 33, 0);
+   
+    
+}
+
+#logo{
+    color:white;
+    font-size:32px;
+    font-weight:bolder;
+}
+
+
+#page-nav-collapse{
+    color:white;
+}
+
+#headerBox{
+    width:100%;
+    height:75px;
+    background-color: rgba(62, 92, 33, 0.705);
+    border-bottom:2px solid rgb(73, 73, 73);
+    position: absolute;
+    margin-top: 8px;
+}
+
+input{
+    padding:5px;
+    margin:10px 0px 20px 15px;
+    box-shadow: 2px 2px 2px gray;
+    border:none;
+}
+
+#going{
+    border:none;
+    background-color:white;
+}
+
+#going:hover{
+    color:white;
+    cursor: pointer;
+    background-color: rgba(62, 92, 33, 0.466);
+    box-shadow: 2px 2px 2px gray;
+}
+#reset{
+    border:none;
+    background-color:white;
+}
+
+#reset:hover{
+    color:white;
+    cursor: pointer;
+    background-color: rgba(62, 92, 33, 0.466);
+    box-shadow: 2px 2px 2px gray;
+}
+
+.areaMap{
+    margin-bottom:auto;
+
+}
+
+#btnStyle{
+    background-color:white;
+    margin: 0px 10px 10px 0px;
+    box-shadow: 2px 2px 2px gray;
+    border:none;
+    padding:5px;
+
+}
+
+#btnStyle:hover{
+    cursor: pointer;
+    color:White;
+    background-color: rgba(62, 92, 33, 0.466);
+    
+}
+
+.mapStyle{
+    box-shadow: 2px 2px 2px gray;
+    width:auto;
+    height:auto;
+    background-attachment: fixed;
+    background-size:contain;
+}
+
+#navStyle{
+    color:white;
+    padding:20px;
+    border-left:1px solid rgb(73, 73, 73);
+    border-right:1px solid rgb(73, 73, 73);
+}
+
+#navStyle:hover{
+    color:rgb(43, 42, 42);
+    cursor: pointer;
+}
+
+#footer{
+    width:100%;
+    position: fixed;
+    bottom:0px;
+    height: 50px;
+    background-color: rgba(62, 92, 33, 0.705);
+    border-top:2px solid rgb(73, 73, 73);
+    text-align: center;
+    line-height: 50px;
+    font-size:12px;
+    margin-top: 50px;
+}
+
+#hikeBtn{
+    background-color:white;
+    margin:10px 0px 0px 0px;
+    box-shadow: 2px 2px 2px gray;
+    padding:5px;
+}
+
+#hikeBtn:hover{
+    color:white;
+    cursor: pointer;
+    background-color: rgba(62, 92, 33, 0.466);
+}
+
+.store{
+    margin-top:10px;
+    margin-bottom:10px;
+    box-shadow: 2px 2px 2px gray;
+    background-color:white;
+    border:none;
+}
+
+.store:hover{
+    color:white;
+    cursor: pointer;
+    background-color: rgba(62, 92, 33, 0.466);
+}
+
+#currentTrip{
+    margin-top:20px;
+    margin-bottom: 50px
+}
+
+.campingSite{
+    background-color:white;
+    margin:10px 0px 0px 0px;
+    box-shadow: 2px 2px 2px gray;
+    padding:5px;
+    border:none;
+    -webkit-background-color:white;
+    -webkit-margin:10px 0px 0px 0px;
+    -webkit-box-shadow: 2px 2px 2px gray;
+    -webkit-padding:5px;
+    -webkit-border:none;
+}
+.campingSite:hover{
+    color:white;
+    cursor: pointer;
+    background-color: rgba(62, 92, 33, 0.466);
+    -webkit-color:white;
+    -webkit-cursor: pointer;
+    -webkit-background-color: rgba(62, 92, 33, 0.466);
+}
+.specialButton{
+    max-width: 20%;
+    max-width: 9%;
+    padding-left: 2px;
+}

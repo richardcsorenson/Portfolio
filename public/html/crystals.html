@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poor+Story" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+    
+    <div class="container top-contain">
+        <div class = "row">
+            <div class = "col-lg-12">
+                <h1>Crystal Guessing Game</h1>
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-lg-12 instructions">
+                    <h3>Welcome to the Crystal guessing game!!! Each crystal will have a random value between 1 and 12, but the value will not be known until
+                        you click on the crystal. Go over the target number and lose. Hit the target number and win big. It's up to you, will your luck and 
+                        guessing skills stand up to the challenge, or will you fall into failure?
+                    </h3>
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-lg-6">
+                <h1>Number to Guess: <span id="number-to-guess"></span></h1>
+            </div>
+            <div class = "col-lg-6">
+                <div class = "row">
+                    <div class = "col-lg-6">
+                        <div class = "row text-center">
+                            <h5 class = "winner">Wins : 0</h5>
+                        </div>
+                        <div class = "row text-center">
+                            <h5 class = "loser">Losses : 0</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class = "row" id = "crystals">
+            <div class = "col-lg-3">
+                <div class = "row">
+                    <div class = "col-lg-12">
+                        <button class = "btn-ruby"><img src="../images/ruby.jpeg" title="Ruby" alt="Image Loading" height="200px", width="200px"></button>
+                    </div>    
+                </div>
+                <div class = "row">
+                    <div class = "col-lg-10 text-center">
+                        <h2 class = "ruby-value"></h2>
+                    </div>
+                </div>               
+            </div>
+            <div class = "col-lg-3">
+                <div class = "row">
+                    <div class = "col-lg-12">
+                        <button class = "btn-emerald"><img src="../images/emerald.jpeg" title="Emerald" alt="Image Loading" height="200px", width="200px"></button>
+                    </div>    
+                </div>
+                <div class = "row">
+                    <div class = "col-lg-10 text-center">
+                        <h2 class = "emerald-value"></h2>
+                    </div>
+                </div>       
+            </div>
+            <div class = "col-lg-3">
+                <div class = "row">
+                    <div class = "col-lg-12">
+                        <button class = "btn-saphire"><img src="../images/saphire.jpeg" title="Saphire" alt="Image Loading" height="200px", width="200px"></button>
+                    </div>    
+                </div>
+                <div class = "row">
+                    <div class = "col-lg-10 text-center">
+                        <h2 class = "saphire-value"></h2>
+                    </div>
+                </div>         
+            </div>
+            <div class = "col-lg-3">
+                    <div class = "row">
+                        <div class = "col-lg-12">
+                            <button class = "btn-triforce"><img src="../images/triforce.jpeg" title="Triforce" alt="Image Loading" height="200px", width="200px"></button>
+                        </div>    
+                    </div>
+                    <div class = "row">
+                        <div class = "col-lg-10 text-center">
+                            <h2 class = "triforce-value"></h2>
+                        </div>
+                    </div>                       
+            </div>  
+        </div>
+        <div class = "row">
+            <div class = "col-lg-3">
+                <!-- empty col -->
+            </div>
+            <div class = "col-lg-6">
+                <div class = "row">
+                    <img src="../images/crystalBackround.jpg">
+                </div>
+                <div class = "row">
+                    <div class = "col-lg-3">
+                        <!-- more empty -->
+                    </div>
+                    <div class = "col-lg-6">
+                        <h1 class = "running-total text-center">Current total : 0</h1>
+                    </div>
+                    <div class = "col-lg-3">
+                        <!-- more empty -->
+                    </div>
+                </div>               
+            </div>
+            <div class = "col-lg-3">
+                <!-- empty col -->
+            </div>
+        </div>
+    </div>
+    <footer class="footer" style="background-color: black; color: white; padding-top: 1rem;">
+        <div class="container">
+            <p class="text-center">Copyright &copy;</p>
+        </div>
+    </footer>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    
+</body>
+</html>
+

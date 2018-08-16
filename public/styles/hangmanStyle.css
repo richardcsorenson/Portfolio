@@ -1,0 +1,73 @@
+.homepage{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTED8HmNbgQjOvPWHvJMRFyuWqL9RLbkHVXCxxNekPMsYlvHnyNA);
+}
+.gameChoice{
+    font-size: 2rem;
+    background-color: gray;
+    padding: 1rem;
+}
+
+.options{
+    position: relative;
+    top: 24rem;
+}
+
+.guess{
+    position: relative;
+    top: 40rem;
+    left: 46rem;
+    background-color: deepskyblue;
+    padding: .25rem;
+    width: 24rem;
+    text-align: center;
+}
+.usedLetters{
+    position: relative;
+    top: 30rem;
+    left: 46rem;
+    background-color: black;
+    width: 24rem;
+    font-size: 2rem;
+    color: darkred;
+    padding: .25rem;
+}
+.winBox{
+    position: relative;
+    top: 13rem;
+    left: 20rem;
+    background-color: deepskyblue;
+    width: 150px;
+    font-size: 2rem;
+    padding: .25rem;
+}
+.lossBox{
+    position: relative;
+    top: 16rem;
+    left: 20rem;
+    background-color: deepskyblue;
+    width: 150px;
+    font-size: 2rem;
+    padding: .25rem;
+}
+.currentWord{
+    position: relative;
+    top: 27rem;
+    left: 44rem;
+    background-color: deepskyblue;
+    width: 28rem;
+    font-size: 2rem;
+    padding: .25rem;
+}
+.hangingman{
+    position: relative;
+    top: 1rem;
+    left: 50rem;
+}
+.hangmanBody{
+    background-color: dimgray;
+}
+.Catagory{
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem;
+}

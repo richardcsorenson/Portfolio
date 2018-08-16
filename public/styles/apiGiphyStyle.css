@@ -1,0 +1,14 @@
+.sizing{
+    height: 250px;
+    width: 250px;
+}
+
+.heros{
+    margin: 1rem;
+}
+
+.hero{
+    margin: .5rem;
+    height: 30px;
+    width: 120px;
+}
